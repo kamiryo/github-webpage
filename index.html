@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Title</title>
     <script type="text/javascript" src="https://kamiryo.github.io/github-jsloadpage/heavy.js"></script>
-    <script type="text/javascript" >
-        function onButtonClick() {
-          target = document.getElementById("output");
-          target.innerText = document.id_form1.LoginId.value;
-        }
-  </script>
 </head>
 <body>
     Smaple Body<br>
     <form name="form1" id="id_form1" action="">
-        <input name="LoginId" type="text" maxlength="12" id="LoginId" value="sample">
-        <input type="button" value="Exec" onclick="onButtonClick();" />
+        <input name="LoginId" type="text" maxlength="12" id="id_LoginId" value="初期文章">
+        <input type="button" value="実行" onclick="onButtonClick();" />
     </form><br>
     <div id="output"></div>
+    <script type="text/javascript" >
+        function onButtonClick() {
+          target = document.getElementById("output");
+          target.innerText = document.id_form1.id_LoginId.value;
+        }
+    </script>
 </body>
 </html>
