@@ -1,0 +1,127 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------------
+    Software Keyboard
+----------------------------------------------------------------- */
+#popupKeybord #frame{
+width:670px;
+}
+
+#popupKeybord #headerArea{
+background:url(../Images/bg_popup-keybord.gif) repeat-x;
+height:70px;
+margin-bottom:22px;
+}
+
+#popupKeybord #headerArea p#logo{
+left:10px;
+position:absolute;
+top:13px;
+}
+
+#popupKeybord #headerArea li#help{
+right:10px;
+top:19px;
+}
+
+#popupKeybord #contentsArea,
+#popupKeybord #mainColumn{
+margin:0 auto;
+width:546px;
+}
+
+#popupKeybord #contentsArea ul.clearKeys{
+zoom:1;
+}
+
+#popupKeybord #contentsArea ul.clearKeys:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#popupKeybord #contentsArea ul.clearKeys li{
+margin-right:10px;
+float:left;
+}
+
+#popupKeybord #contentsArea ul.checkBoxList01{
+float:left;
+}
+
+#popupKeybord #contentsArea ul.linkList02{
+zoom:1;
+}
+
+#popupKeybord #contentsArea ul.linkList02:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#popupKeybord #contentsArea div.keyPanelArea{
+background:#edf9eb url(../Images/bg_key-panel.gif) no-repeat;
+padding:10px 13px 5px 17px;
+width:516px;
+zoom:1;
+}
+
+#popupKeybord #contentsArea div.keyPanelArea:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#popupKeybord #contentsArea div.keyPanelArea table{
+border:none;
+}
+
+#popupKeybord #contentsArea div.keyPanelArea table,
+#popupKeybord #contentsArea div.keyPanelArea table td{
+border:none;
+margin:0;
+padding:2px 6px;
+}
+
+#popupKeybord #contentsArea div.keyPanelArea table.alphabet{
+float:left;
+}
+
+#popupKeybord #contentsArea div.keyPanelArea table.numeric{
+float:right;
+}
+
+#popupKeybord #footerArea #footerInformation{
+text-align:center;
+margin:auto;
+width:650px;
+height:auto;
+}
+
+#popupKeybord #footerArea #footerInformation dl{
+padding-bottom:3px;
+border-bottom:solid 2px #138f39;
+}
+
+#popupKeybord #footerArea #footerInformation dl dt,
+#popupKeybord #footerArea #footerInformation dl dd{
+display:inline;
+}
+
+#popupKeybord #footerArea p#copyright{
+position:static;
+margin-top:8px;
+float:left;
+}
+
+#popupKeybord #footerArea p#ci{
+position:static;
+margin:2px 0 11px;
+float:right;
+}

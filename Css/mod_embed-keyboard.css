@@ -1,0 +1,211 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------------
+    Table Module
+----------------------------------------------------------------- */
+@charset "shift_jis";
+
+/* ----------------------------------------------------------------
+    Software Keyboard
+----------------------------------------------------------------- */
+#contentsArea div.keyPanelArea{
+/*background:#edf9eb url(../Images/bg_key-panel.gif) no-repeat;
+padding:10px 13px 5px 17px;
+width:516px;
+zoom:1;
+*/
+}
+
+#contentsArea div.keyPanelArea:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#contentsArea div.keyPanelArea table,
+#contentsArea div.keyPanelArea table td{
+border-width : 0px 0px 0px 0px;
+margin : 0px;
+padding : 0px 10px 0px 0px; /* 大文字切替・クリア、英字、数字の３つのエリアの空きを設定 */
+}
+
+#contentsArea  div.keyPanelArea table.headerArea{
+width : 100%;
+border-width : 0px 0px 0px 0px;
+font-size : 15px;
+}
+
+#contentsArea  div.keyPanelArea table.clearLoUpArea{
+width : 100%;
+border-width : 0px 0px 0px 0px;
+font-size : 15px;
+}
+
+#contentsArea div.keyPanelArea table.alphabet{
+width : 100%;
+border-width : 0px 0px 0px 0px ;
+}
+
+#contentsArea div.keyPanelArea table.numeric{
+width : 100%;
+border-width : 0px 0px 0px 0px ;
+}
+
+#contentsArea  div.keyPanelArea table.clearLoUpArea td{
+border-width : 0px 0px 0px 0px;
+padding : 0px 0px 0px 15px;　/* 大文字切替チェックボックス、クリアボタンの四方の空きを設定 */
+}
+
+#contentsArea  div.keyPanelArea table.alphabet td{
+padding : 0px 0px 0px 10px;　/* 英字ボタンの四方の空きを設定 */
+}
+
+#contentsArea  div.keyPanelArea table.numeric td{
+padding : 0px 0px 0px 10px;　 /* 数字ボタンの四方の空きを設定 */
+}
+
+/* ----------------------------------------------------------------
+  [mek-01]  keyPanelArea クラス名変更　→keyPanelArea02 
+----------------------------------------------------------------- */
+#contentsArea div.keyPanelArea02{
+/*background:#edf9eb url(../Images/bg_key-panel.gif) no-repeat;
+padding:10px 13px 5px 17px;
+width:516px;
+zoom:1;
+*/
+}
+
+#contentsArea div.keyPanelArea02:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#contentsArea div.keyPanelArea02 table,
+#contentsArea div.keyPanelArea02 table td{
+border-width : 0px 0px 0px 0px;
+margin : 0px;
+padding : 0px 10px 0px 0px; /* 大文字切替・クリア、英字、数字の３つのエリアの空きを設定 */
+}
+
+#contentsArea  div.keyPanelArea02 table.headerArea{
+width : 100%;
+border-width : 0px 0px 0px 0px;
+font-size : 15px;
+}
+
+#contentsArea  div.keyPanelArea02 table.clearLoUpArea{
+width : 100%;
+border-width : 0px 0px 0px 0px;
+font-size : 15px;
+}
+
+#contentsArea div.keyPanelArea02 table.alphabet{
+width : 100%;
+border-width : 0px 0px 0px 0px ;
+}
+
+#contentsArea div.keyPanelArea02 table.numeric{
+width : 100%;
+border-width : 0px 0px 0px 0px ;
+}
+
+#contentsArea  div.keyPanelArea02 table.clearLoUpArea td{
+border-width : 0px 0px 0px 0px;
+padding : 0px 0px 0px 15px;　/* 大文字切替チェックボックス、クリアボタンの四方の空きを設定 */
+}
+
+#contentsArea  div.keyPanelArea02 table.alphabet td{
+padding : 0px 0px 0px 10px;　/* 英字ボタンの四方の空きを設定 */
+}
+
+#contentsArea  div.keyPanelArea02 table.numeric td{
+padding : 0px 0px 0px 10px;　 /* 数字ボタンの四方の空きを設定 */
+}
+/* -------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------
+  [mek-02]  keyPanelArea テーブル幅指定解除
+----------------------------------------------------------------- */
+#contentsArea div.keyPanelArea table.alphabet{
+width : auto;
+}
+
+#contentsArea div.keyPanelArea table.numeric{
+width : auto;
+}
+/* -------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+    Image Module
+----------------------------------------------------------------- */
+/* 英数字ボタン (Original Size : width=34px、height=35px) */
+img.keybordImgBtn{
+/*width:25px;
+height:26px;*/
+border-width:0px;
+cursor:pointer;
+}
+
+/* 1文字クリア (Original Size : width=104px、height=29px) */
+img.keybordImgClear001{
+width:104px;
+height:29px;
+border-width:0px;
+cursor:pointer;
+padding : 0px 0px 0px 0px;　 /* 1文字クリアボタンの四方の空きを設定 */
+}
+
+/* 全てクリア (Original Size : width=105px、height=29px) */
+img.keybordImgClearALL{
+width:105px;
+height:29px;
+border-width:0px;
+cursor:pointer;
+padding : 0px 0px 0px 0px;　 /* 全てクリアボタンの四方の空きを設定 */
+}
+
+
+
+/* ----------------------------------------------------------------
+    CSS 更新内容
+----------------------------------------------------------------- */
+
+/*  [mek-01]
+#contentsArea div.keyPanelArea
+#contentsArea div.keyPanelArea:after
+#contentsArea div.keyPanelArea table
+#contentsArea div.keyPanelArea table td
+#contentsArea  div.keyPanelArea table.headerArea
+#contentsArea  div.keyPanelArea table.clearLoUpArea
+#contentsArea div.keyPanelArea table.alphabet
+#contentsArea div.keyPanelArea table.numeric
+#contentsArea  div.keyPanelArea table.clearLoUpArea td
+#contentsArea  div.keyPanelArea table.alphabet td
+#contentsArea  div.keyPanelArea table.numeric td
+を
+#contentsArea div.keyPanelArea02
+#contentsArea div.keyPanelArea02:after
+#contentsArea div.keyPanelArea02 table
+#contentsArea div.keyPanelArea02 table td
+#contentsArea  div.keyPanelArea02 table.headerArea
+#contentsArea  div.keyPanelArea02 table.clearLoUpArea
+#contentsArea div.keyPanelArea02 table.alphabet
+#contentsArea div.keyPanelArea02 table.numeric
+#contentsArea  div.keyPanelArea02 table.clearLoUpArea td
+#contentsArea  div.keyPanelArea02 table.alphabet td
+#contentsArea  div.keyPanelArea02 table.numeric td
+に変更 */
+
+/*  [mek-02]
+#contentsArea div.keyPanelArea table.alphabet{
+width : auto;
+}width100%をautoに変更
+#contentsArea div.keyPanelArea table.numeric{
+width : auto;
+}width100%をautoに変更 */

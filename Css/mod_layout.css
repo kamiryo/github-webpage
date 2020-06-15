@@ -1,0 +1,70 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------------
+    Structure= Frame
+----------------------------------------------------------------- */
+#frame{
+margin:0 auto;
+width:859px;
+text-align:left;
+}
+
+
+/* ----------------------------------------------------------------
+    Structure= Header Area
+----------------------------------------------------------------- */
+#headerArea{
+margin-bottom:14px;
+position:relative;
+height:89px;
+background:url("../Images/header/bg_header.gif") 0 0 no-repeat;
+}
+
+
+/* ----------------------------------------------------------------
+    Structure= Contents Area
+----------------------------------------------------------------- */
+#contentsArea{
+zoom:1;
+width:859px;
+}
+
+#contentsArea:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+
+/* ----------------------------------------------------------------
+    Structure= Main Column
+----------------------------------------------------------------- */
+#mainColumn{
+float:right;
+width:689px;
+}
+
+#mainColumn.noSub{
+float:none;
+margin:0 auto;
+}
+
+
+/* ----------------------------------------------------------------
+    Structure= Sub Column
+----------------------------------------------------------------- */
+#subColumn{
+float:left;
+width:150px;
+}
+
+
+/* ----------------------------------------------------------------
+    Structure= Footer Area
+----------------------------------------------------------------- */
+#footerArea{
+clear:both;
+margin-top:20px;
+}

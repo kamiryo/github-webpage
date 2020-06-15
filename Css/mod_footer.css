@@ -1,0 +1,135 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------------
+    Structure= Footer Area
+----------------------------------------------------------------- */
+#footerArea *{
+margin:0;
+padding:0;
+}
+
+#footerArea p.pageTop{
+margin:40px 0 25px;
+text-align:right;
+font-size:62.5%;
+}
+
+#footerArea p.pageTop a{
+padding-left:12px;
+background:url("../Images/bullet_arrow_top.gif") 0 0.2em no-repeat;
+}
+
+#footerArea #footerInformation{
+position:relative;
+height:85px;
+}
+
+/*=====================================================
+	通常（カードローン・住宅ローン以外）
+=================================================== --*/
+
+#footerArea ul#inquiry{
+position:relative;
+border-bottom:5px solid #118f3b;
+background:#f8f8f8 url("../Images/footer/bg_inquiry.gif") 0 0 repeat-x;
+height:39px;
+text-align:center;
+}
+
+/* 配置位置絶対位置指定 */
+#footerArea ul#inquiry li{
+position:absolute;
+}
+
+/* フリーダイヤル画像配置位置 */
+#footerArea ul#inquiry li#labelFreedial{
+top:9px;
+left:256px;
+width:348px;
+}
+
+/* 銀行ロゴ画像配置位置 */
+#footerArea p#ci{
+position:absolute;
+top:50px;
+right:4px;
+}
+
+
+/*=====================================================
+	カードローン
+=================================================== --*/
+
+#footerArea ul#inquirycardloan{
+position:relative;
+border-bottom:5px solid #118f3b;
+background:#f8f8f8 url("../Images/footer/bg_inquiry.gif") 0 0 repeat-x;
+height:60px;
+text-align:center;
+}
+
+/* 配置位置絶対位置指定 */
+#footerArea ul#inquirycardloan li{
+position:absolute;
+}
+
+/* フリーダイヤル画像配置位置 */
+#footerArea ul#inquirycardloan li#labelFreedialcardloan{
+top:9px;
+left:118px;
+width:348px;
+}
+
+/* 銀行ロゴ画像配置位置 */
+#footerArea p#cicardloan{
+position:absolute;
+top:71px;
+right:4px;
+}
+
+
+/*=====================================================
+	住宅ローン
+=================================================== --*/
+
+#footerArea ul#inquiryhouseloan{
+position:relative;
+border-bottom:5px solid #118f3b;
+background:#f8f8f8 url("../Images/footer/bg_inquiry.gif") 0 0 repeat-x;
+height:39px;
+text-align:center;
+}
+
+/* 配置位置絶対位置指定 */
+#footerArea ul#inquiryhouseloan li{
+position:absolute;
+}
+
+/* フリーダイヤル画像配置位置 */
+#footerArea ul#inquiryhouseloan li#labelFreedialhouseloan{
+top:9px;
+/* 5ph対応-画像表示位置の修正(256px→118px) */
+left:118px;
+width:348px;
+}
+
+/* 銀行ロゴ画像配置位置 */
+#footerArea p#cihouseloan{
+position:absolute;
+top:50px;
+right:4px;
+}
+
+
+/* ----------------------------------------------------------------
+    CSS 更新内容
+----------------------------------------------------------------- */
+
+/*  [mf-01]  フリーダイアル画像を中央配置
+#footerArea ul#inquiry li#labelFreedial{
+left:51px;→left:256px;}に変更 */
+
+/* #footerArea ul#inquiry li#labelFreedialの重複行を削除
+   EmailのCSSを削除
+   copyrightのCSSを削除
+*/

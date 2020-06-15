@@ -1,0 +1,326 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------------
+    div.myInfoArea
+----------------------------------------------------------------- */
+#mainColumn.myPage #myInformation{
+margin:0 0 20px 0;
+padding-bottom:8px;
+background:url("../Images/bg_h1_bottom.gif") bottom no-repeat;
+}
+
+#mainColumn.myPage #myInformation:after{
+display:block;
+clear:both;
+height:1px;
+overflow:hidden;
+content:"";
+}
+
+#mainColumn.myPage #myInformation h1{
+margin:0;
+padding:10px 0 0 20px;
+height:1%;
+background:url("../Images/bg_h1_top.gif") no-repeat;
+}
+
+#mainColumn.myPage #myInformation h1 span{
+padding:0;
+background:none;
+color:#118f3b;
+}
+
+/* ----------------------------------------------------------------
+    div.myInfoArea
+----------------------------------------------------------------- */
+#mainColumn.myPage #myInformation div.myInfoArea{
+padding:0 10px;
+background:url("../Images/bg_toppage-middle.gif") repeat-y;
+overflow:hidden;
+_overflow:visible;
+zoom:1;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea:after{
+display:block;
+clear:both;
+height:1px;
+overflow:hidden;
+content:"";
+}
+
+/* ----------------------------------------------------------------
+    div.myStatusArea
+----------------------------------------------------------------- */
+#mainColumn.myPage #myInformation div.myInfoArea div.myStatusArea{
+float:left;
+padding-left:10px;
+width:75%;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea div.myStatusArea p.paragraph02{
+margin-bottom:1em;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea div.myStatusArea div.contBox01{
+background:url("../Images/bg_top-status_01.gif") no-repeat top left #e8f7e6;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea div.myStatusArea div.contBox01 div{
+background:url("../Images/bg_top-status_02.gif") no-repeat top right;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea div.myStatusArea div.contBox01 div div{
+background:url("../Images/bg_top-status_03.gif") no-repeat bottom right;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea div.myStatusArea div.contBox01 p{
+background:url("../Images/bg_top-status_04.gif") no-repeat bottom left;
+padding:6px 13px;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea div.myStatusArea div.contBox01 p em{
+color:#118f3b;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea div.myStatusArea p{
+margin:0 auto;
+}
+#mainColumn.myPage #myInformation div.myInfoArea div.myStatusArea th.headStyle01{
+border-top:1px solid #fff;
+border-left:1px solid #fff;
+background:#ffdca6;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea div.myStatusArea .linkStyleA01{
+background-position:center left;
+line-height:1.7;
+zoom:1;
+}
+
+/* ----------------------------------------------------------------
+    .contBox01
+----------------------------------------------------------------- */
+#mainColumn.myPage .contBox01{
+margin:0px;
+float:left;
+}
+
+/* ----------------------------------------------------------------
+    #myImageArea
+----------------------------------------------------------------- */
+#mainColumn.myPage #myInformation div.myInfoArea #myImageArea{
+float:right;
+position:relative;
+padding-right:10px;
+text-align:center;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea #myImageArea p{
+margin-bottom:0;
+}
+
+#mainColumn.myPage #myInformation div.myInfoArea #myImageArea ul.linkList01{
+margin-bottom:0px;
+zoom:1;
+}
+#mainColumn.myPage #myInformation div.myInfoArea #myImageArea ul.linkList01 li{
+margin-bottom:0px;
+_margin-left:15px;
+text-align:left;
+}
+#mainColumn.myPage #myInformation div.myInfoArea #myImageArea ul.linkList01 li a{
+background-position:center left;
+font-weight:normal;
+}
+/* ----------------------------------------------------------------
+    .importantInfoList
+----------------------------------------------------------------- */
+#mainColumn.myPage table.importantInfoList{
+width:auto;
+margin:0 0 13px 0;
+border:none;
+font-weight:bold;
+color:#f00;
+}
+
+#mainColumn.myPage table.importantInfoList th{
+display:none;
+}
+
+#mainColumn.myPage table.importantInfoList td.headStyle01{
+display:block;
+padding:0 0 0 33px;
+border:none;
+background:url("../Images/important.gif") 0 2px no-repeat;
+height:1%;
+}
+
+#mainColumn.myPage table.importantInfoList td{
+padding:0 0 0 18px;
+border:none;
+}
+
+/* ----------------------------------------------------------------
+    .topicsList
+----------------------------------------------------------------- */
+#mainColumn.myPage table.topicsList{
+border:none;
+background:#fdfae6;
+color:#555;
+}
+
+#mainColumn.myPage table.topicsList th{
+display:none;
+}
+
+#mainColumn.myPage table.topicsList td{
+background:none;
+border:none;
+text-align:left;
+}
+
+#mainColumn.myPage table.topicsList td .linkStyleA01{
+margin:0;
+background:url(../Images/bullet_arrow_delta.gif) no-repeat center left;
+font-size:100%;
+font-weight:bold;
+}
+
+#mainColumn.myPage table.topicsList td p {
+padding-left:5px;
+}
+
+#mainColumn.myPage table.topicsList td{
+border:none;
+}
+
+/* ----------------------------------------------------------------
+    #detailsHeadline
+----------------------------------------------------------------- */
+#mainColumn.myPage #detailsHeadline{
+padding:0;
+height:1%;
+overflow:hidden;
+}
+
+#mainColumn.myPage #detailsHeadline:after{
+display:block;
+clear:both;
+height:1px;
+overflow:hidden;
+content:"";
+}
+
+#mainColumn.myPage #detailsHeadline h2{
+position:relative;
+top:6px;
+float:left;
+overflow:hidden;
+}
+
+#mainColumn.myPage #detailsHeadline h2 span{
+font-size:84%;
+font-weight:normal;
+}
+
+#mainColumn.myPage #detailsHeadline p{
+float:right;
+background:none;
+}
+
+/* ----------------------------------------------------------------
+    .balance
+----------------------------------------------------------------- */
+#mainColumn.myPage p#balance{
+margin:0 0 3px 0;
+width:100%;
+zoom:1;
+}
+
+#mainColumn.myPage p#balance td{
+padding:0;
+}
+
+#mainColumn.myPage p#balance strong{
+padding:0 15px 0 0;
+font-weight:bold;
+font-size:1.3em;
+color:#14903d;
+}
+
+#mainColumn.myPage p#balance a.linkStyleA01{
+font-size:100%;
+background-position:center left;
+zoom:1;
+}
+
+/* ----------------------------------------------------------------
+    .infoLinkList
+----------------------------------------------------------------- */
+#mainColumn.myPage div.hdStyle p.infoLinkList{
+position:absolute;
+top:7px;
+_top:5px;
+right:0;
+margin:0;
+padding:2px 0 2px 10px;
+background:url("../Images/bullet_arrow_delta.gif") left center no-repeat;
+font-weight:normal;
+font-size:81.25%;
+}
+
+/* ----------------------------------------------------------------
+    #newsList
+----------------------------------------------------------------- */
+#mainColumn.myPage table.newsList{
+border:none;
+width:auto;
+}
+
+#mainColumn.myPage table.newsList th{
+display:none;
+}
+
+#mainColumn.myPage table.newsList td{
+padding:0;
+border:none;
+color:#0066cc;
+}
+
+#mainColumn.myPage table.newsList td.headStyle01{
+margin-left:10px;
+padding:0 20px 0 30px;
+border:none;
+background:url("../Images/news.gif") 0 3px no-repeat;
+height:1%;
+font-weight:normal;
+color:#000;
+}
+/* ----------------------------------------------------------------
+    .bannerList
+----------------------------------------------------------------- */
+#mainColumn ul.bannerList{
+margin-top:20px;
+text-align:center;
+}
+
+#mainColumn ul.bannerList li{
+display:inline;
+margin:0 5px;
+}
+
+#mainColumn ul.bannerList li *{
+vertical-align:middle;
+}
+
+/* ----------------------------------------------------------------
+    .showDetailLog
+----------------------------------------------------------------- */
+#mainColumn table td.showDetailLog{
+text-align:center;
+}
+
+#mainColumn table td.showDetailLog .linkStyleA01{
+background-position:center left;
+}

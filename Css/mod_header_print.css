@@ -1,0 +1,25 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------------
+    Structure= Header Area
+----------------------------------------------------------------- */
+#headerArea *{
+margin:0;
+padding:0;
+}
+
+#headerArea p#logo{
+position:absolute;
+top:17px;
+left:21px;
+}
+
+#headerArea p#impressiveAdvertisement{
+position:absolute;
+top:13px;
+right:11px;
+}
+
+#headerArea ul{
+display:none;
+}

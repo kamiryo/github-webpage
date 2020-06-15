@@ -1,0 +1,236 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------------
+    Structure
+----------------------------------------------------------------- */
+body{
+margin:0;
+padding:0;
+color:#333;
+background:#fff;
+font-size:100.01%;
+line-height:1.6;
+}
+
+
+/* ----------------------------------------------------------------
+    Heading Module
+----------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin:0 0 15px;
+}
+
+h1{
+font-size:125%;
+}
+
+h2{
+font-size:100%;
+}
+
+h3{
+font-size:87.5%;
+}
+
+h4{
+font-size:112.5%;
+}
+
+h5{
+font-size:100%;
+}
+
+h6{
+font-size:87.5%;
+}
+
+
+/* ----------------------------------------------------------------
+    Text Module
+----------------------------------------------------------------- */
+p{
+margin:0 0 15px;
+font-size:81.25%;
+}
+
+blockquote{
+margin:20px 20px;
+padding:15px 15px 0;
+border:10px solid #eee;
+}
+
+em{
+font-style:normal;
+font-weight:bold;
+}
+
+strong{
+color:#f00;
+font-weight:normal;
+}
+
+
+/* ----------------------------------------------------------------
+    Hypertext Module
+----------------------------------------------------------------- */
+a:link{
+color:#06c;
+}
+
+a:visited{
+color:#06c;
+}
+
+a:hover,
+a:active{
+color:#fb7e19;
+text-decoration:none;
+}
+
+
+/* ----------------------------------------------------------------
+    List Module
+----------------------------------------------------------------- */
+ul,
+ol,
+dl{
+margin:0 0 15px 0;
+padding:0;
+list-style:none;
+}
+
+ol{
+margin-left:2.4em;
+}
+
+dl{
+margin-left:0;
+}
+
+li,
+dt,
+dd{
+margin:0 0 2px;
+font-size:82.5%;
+}
+
+dt{
+margin:0;
+font-weight:bold;
+}
+
+dd{
+margin:0 0 10px;
+}
+
+li h2,
+li h3,
+li h4,
+li h5,
+li h6{
+margin-bottom:0;
+}
+
+li h2{
+font-size:1.5em;
+}
+
+li h3{
+font-size:1.4em;
+}
+
+li h4{
+font-size:1.2em;
+}
+
+li h5{
+font-size:1.1em;
+}
+
+li h6{
+font-size:1em;
+}
+
+li p,
+li li,
+li dt,
+li dd,
+dd p,
+dd li,
+dd dt,
+dd dd{
+margin-top:2px;
+font-size:100%;
+}
+
+li ul,
+li ol{
+margin:2px 0 0px 10px;
+}
+
+
+/* ----------------------------------------------------------------
+    Table Module
+----------------------------------------------------------------- */
+table{
+margin:0 0 10px;
+border-width:1px 0 0 1px;
+border-style:solid;
+border-color:#ccc;
+font-size:100%;
+}
+
+th,
+td{
+padding:5px 8px 3px;
+border-width:0 1px 1px 0;
+border-style:solid;
+border-color:#ccc;
+font-size:82.5%;
+line-height:2;
+}
+
+td p,
+td li,
+td dt,
+td dd{
+font-size:100%;
+}
+
+td p,
+td ul,
+td ol,
+td dl{
+margin-bottom:5px;
+}
+
+thead th{
+background:#dedede;
+}
+
+tbody th{
+background:#f6f6f6;
+text-align:left;
+}
+
+
+/* ----------------------------------------------------------------
+    Image Module
+----------------------------------------------------------------- */
+img{
+border:0;
+vertical-align:bottom;
+}
+
+
+/* ----------------------------------------------------------------
+    Horizontal Rule
+----------------------------------------------------------------- */
+hr{
+display:none;
+}

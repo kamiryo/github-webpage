@@ -1,0 +1,2759 @@
+@charset "shift_jis";
+
+#mainColumn span.notDisplay{
+position:absolute;
+top:-9999px;
+/*left:-9999px;*/
+visibility:hidden;
+}
+
+/* ----------------------------------------------------------------
+    Module= Section
+----------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+    Module= Heading
+----------------------------------------------------------------- */
+#mainColumn h1{
+background:url("../Images/bg_h1_top.gif") 0 0 no-repeat;
+}
+
+#mainColumn h1 span{
+display:block;
+padding:10px 15px;
+background:url("../Images/bg_h1_bottom.gif") bottom left no-repeat;
+}
+
+#mainColumn div.hdStyle{
+clear:both;
+position:relative;
+margin-top:14px;
+margin-bottom:10px;
+padding-bottom:4px;
+background:url("../Images/bg_h2.gif") bottom left no-repeat;
+}
+
+#mainColumn div.hdStyle h2,
+#mainColumn div.hdStyle h3,
+#mainColumn div.hdStyle h4,
+#mainColumn div.hdStyle h5,
+#mainColumn div.hdStyle h6{
+margin:0;
+padding-top:6px;
+font-size:100%;
+line-height:1.3;
+}
+
+#mainColumn div.hdStyle p.print{
+position:absolute;
+top:7px;
+_top:5px;
+right:0;
+margin:0;
+padding:3px 0 2px 23px;
+background:url("../Images/icon_print.gif") left center no-repeat;
+font-weight:normal;
+font-size:81.25%;
+}
+
+#mainColumn div.hdStyle p strong{
+font-weight:bold;
+}
+
+#mainColumn div.hdStyle input{
+padding-bottom:3px;
+vertical-align:middle;
+}
+
+#mainColumn h2.hdType01,
+#mainColumn h3.hdType01,
+#mainColumn h4.hdType01,
+#mainColumn h5.hdType01,
+#mainColumn h6.hdType01{
+clear:both;
+margin-top:20px;
+margin-bottom:5px;
+margin-left:1px;
+padding-left:6px;
+border-left:3px solid #999;
+font-size:87.5%;
+}
+
+
+/* ----------------------------------------------------------------
+    Module= Paragraph
+----------------------------------------------------------------- */
+#mainColumn div.hdStyle p{
+margin:0;
+padding-top:6px;
+padding-left:30px;
+padding-bottom:1px;
+background:url("../Images/icon_comment.gif") 0 0 no-repeat;
+font-size:100%;
+font-weight:bold;
+line-height:1.3;
+}
+
+/* ----------------------------------------------------------------
+  [mc-22]  hdStyle 見出しと「印刷する」エリア　スタイル修正 
+----------------------------------------------------------------- */
+#contentsArea #mainColumn div.hdStyle{
+_height:35px;
+}
+#mainColumn div.hdStyle p.print{
+width:69px;
+white-space:nowrap;
+top:auto;
+bottom:7px;
+}
+#mainColumn div.hdStyle p{
+width:565px;
+}
+/* -------------------------------------------------------------- */
+/* ----------------------------------------------------------------
+  [mc-34]  hdStyle 見出しと「印刷する」エリア　スタイル修正 
+----------------------------------------------------------------- */
+#mainColumn div.hdStyle p.print{
+width:4em;
+right:0;
+bottom:5px;
+}
+#mainColumn div.hdStyle p{
+width:auto;
+}
+/* -------------------------------------------------------------- */
+/* ----------------------------------------------------------------
+  [mc-33]  hdStyle 見出し文言と下線が離れる　スタイル修正 
+----------------------------------------------------------------- */
+#contentsArea #mainColumn div.hdStyle{
+_height:27px;
+}
+/* -------------------------------------------------------------- */
+/* ----------------------------------------------------------------
+  [mc-23]  hdStyle 見出し　スタイル修正 
+----------------------------------------------------------------- */
+#mainColumn div.hdStyle p{
+padding-bottom:6px;
+}
+/* -------------------------------------------------------------- */
+
+#mainColumn div.errorMessage p{
+font-size:87.5%;
+font-weight:bold;
+color:#f00;
+}
+
+#mainColumn p.paragraph01,
+#mainColumn p.paragraph02{
+margin-top:25px;
+font-size:87.5%;
+font-weight:bold;
+text-align:center;
+}
+
+#mainColumn p.paragraph02{
+margin-top:0;
+text-align:left;
+}
+
+#mainColumn p.paragraph01 strong{
+color:#f00;
+font-weight:bold;
+}
+
+#mainColumn p img.figCard{
+margin-left:15px;
+vertical-align:top;
+}
+
+#mainColumn p.aright{
+text-align:right;
+}
+
+#mainColumn p.date{
+clear:both;
+margin:0;
+text-align:right;
+}
+
+#mainColumn dl.autoText01,
+#mainColumn dl.autoText02{
+zoom:1;
+position:relative;
+margin-left:4em;
+border-bottom:1px solid #000;
+width:17em;
+}
+
+
+/* ----------------------------------------------------------------
+  [mc-01]  dl.autoText01 左寄せ 
+----------------------------------------------------------------- */
+#mainColumn dl.autoText01,
+#mainColumn dl.autoText02{
+margin-left:0;
+}
+/* -------------------------------------------------------------- */
+
+
+#mainColumn dl.autoText02:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn dl.autoText01 dt,
+#mainColumn dl.autoText01 dd,
+#mainColumn dl.autoText02 dt,
+#mainColumn dl.autoText02 dd{
+display:inline;
+margin:0;
+}
+
+#mainColumn dl.autoText01 dd{
+margin-left:1em;
+}
+
+#mainColumn dl.autoText02 dt{
+float:right;
+}
+
+#mainColumn dl.autoText02 dd{
+float:right;
+margin-right:1em;
+}
+
+#mainColumn dl.autoText01 dd span,
+#mainColumn dl.autoText02 dd span{
+font-size:110%;
+}
+
+
+
+/* ----------------------------------------------------------------
+    Module= Unorderd List
+----------------------------------------------------------------- */
+#mainColumn ul.listStyleA01 li{
+padding-left:10px;
+background:url("../Images/bullet_dot_1.gif") 3px 0.6em no-repeat;
+}
+
+/* Added by EBS 全 for ＜りそなダイレクト＞セキュリティ対策（ソフトウェア トー クン） on 2013/10/29 start */
+#mainColumn ul.listStyleA01 li.styleA01{
+color:red;
+font-weight:bold;
+text-decoration:underline;
+}
+/* Added by EBS 全 for ＜りそなダイレクト＞セキュリティ対策（ソフトウェア トー クン） on 2013/10/29 end */
+
+/* Added by ISIDIT 程 for 投信機能強化 on 2018/10/23 start */
+#mainColumn ul.listStyleA01 li.styleA02{
+padding-left:20px;
+font-weight:bold;
+}
+
+#mainColumn ul.listStyleRow4ColorRed li:nth-child(-n+3){
+padding-left:10px;
+background:url("../Images/bullet_dot_1.gif") 3px 0.6em no-repeat;
+}
+
+#mainColumn ul.listStyleRow4ColorRed li:nth-child(4){
+padding-left:10px;
+background:url("../Images/bullet_red_dot_1.gif") 3px 0.6em no-repeat;
+}
+
+.divCenter{
+text-align:center;
+}
+
+.androidIphoneImgSize{
+width:135px; 
+height:40px;
+}
+
+.qrSmartAppImgSize{
+width:auto; 
+height:70px;
+}
+
+/* Added by ISIDIT 程 for 投信機能強化 on 2018/10/23 end */
+
+#mainColumn ul.listStyleB01 li{
+margin-left:20px;
+padding-left:10px;
+background:url("../Images/bullet_dot_1.gif") 3px 0.6em no-repeat;
+}
+
+/* Added by ARS三浦 for 非対面取引２ on 2017/06/15 start */
+#mainColumn ul.listStyleA02 li{
+padding-left:10px;
+}
+
+#mainColumn ul.listStyleA02 li.styleA01{
+background:url("../Images/bullet_dot_1.gif") 3px 0.6em no-repeat;
+}
+
+#mainColumn ul.listStyleA02 li.styleA02 {
+background: url("../Images/bullet_red_dot_1.gif") 3px 0.6em no-repeat;
+}
+
+#mainColumn ul.listStyleA02 li.styleA03{
+padding-left:25px;
+color:red;
+list-style-type: none;
+text-indent: -1em;
+}
+    
+#mainColumn li.styleA03:before {
+display: inline;
+content: "※";
+}
+/* Added by ARS三浦 for 非対面取引２ on 2017/06/15 end */
+
+
+/* ----------------------------------------------------------------
+    Module= Ordered List
+----------------------------------------------------------------- */
+#mainColumn ol.listStyleA01 li{
+list-style:decimal;
+}
+
+#mainColumn ol.listStyleB01 li{
+margin-left:20px;
+list-style:decimal;
+}
+
+
+
+/* ----------------------------------------------------------------
+    Module= Definition List
+----------------------------------------------------------------- */
+#mainColumn dl.acceptanceDetail dt,
+#mainColumn dl.acceptanceDetail dd{
+display:inline;
+font-size:87.5%;
+font-weight:normal;
+}
+
+#mainColumn dl.acceptanceDetail dt{
+margin-right:15px;
+padding-right:15px;
+background:url("../Images/bg_colon_01.gif") right center no-repeat;
+}
+
+#mainColumn dl.acceptanceDetail dd {
+margin-right:40px;
+}
+
+
+/* ----------------------------------------------------------------
+    Module= Index List
+----------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+    Module= Link
+----------------------------------------------------------------- */
+#mainColumn a.linkStyleA01{
+margin-left:10px;
+padding-left:10px;
+background:url("../Images/bullet_arrow_delta.gif") 0 0 no-repeat;
+font-size:85%;
+}
+
+#mainColumn p.printLink{
+float:right;
+}
+
+#mainColumn p.printLink a{
+padding:3px 0 2px 23px;
+background:url("../Images/icon_print.gif") left center no-repeat;
+}
+
+#mainColumn ul.linkList01 li{
+margin-bottom:5px;
+padding-left:12px;
+background:url("../Images/bullet_arrow_delta.gif") 0 0.5em no-repeat;
+font-weight:bold;
+}
+
+#mainColumn ul.linkList01 li p{
+margin:0;
+color:#666;
+font-size:85%;
+font-weight:normal;
+}
+
+#mainColumn ul.linkList02 li{
+margin-bottom:5px;
+font-weight:bold;
+text-align:right;
+}
+
+#mainColumn ul.linkList02 li a{
+padding-left:12px;
+background:url("../Images/bullet_arrow_delta.gif") 0 0.2em no-repeat;
+}
+
+#mainColumn ul.linkList02 li p{
+margin:0;
+color:#666;
+font-size:85%;
+font-weight:normal;
+}
+
+
+/* ----------------------------------------------------------------
+  [mc-10]  別window用リンク 
+----------------------------------------------------------------- */
+#mainColumn a.linkStyleA02{
+margin-left:12px;
+padding-left:14px;
+background:url("../Images/icn_window.gif") 0 0.2em no-repeat;
+}
+/* -------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+    Module= Link List * Column Type
+----------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+    Module= Button
+----------------------------------------------------------------- */
+#mainColumn p.btnCancel{
+margin-bottom:15px;
+text-align:right;
+}
+
+#mainColumn ul.buttonLayout01{
+zoom:1;
+margin:0 0 35px 36px;
+width:651px;
+overflow:hidden;
+}
+
+#mainColumn ul.buttonLayout01:after,
+#mainColumn ul.buttonLayout02:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn ul.buttonLayout01 li{
+float:left;
+margin-right:35px;
+margin-bottom:7px;
+}
+
+#mainColumn ul.buttonLayout01 li input{
+vertical-align:bottom;
+}
+
+#mainColumn ul.buttonLayout02{
+zoom:1;
+margin-bottom:25px;
+padding-left:4px;
+}
+
+#mainColumn ul.buttonLayout02 li{
+float:left;
+margin-right:7px;
+}
+
+#mainColumn ul.buttonLayout02 li.lastItem{
+float:right;
+margin:0;
+}
+
+#mainColumn ul.buttonLayout03{
+text-align:right;
+}
+
+#mainColumn ul.buttonLayout04{
+zoom:1;
+margin-bottom:10px;
+padding-left:4px;
+}
+
+#mainColumn ul.buttonLayout04 li{
+float:left;
+margin-right:7px;
+}
+
+#mainColumn div.keyboardBlock{
+margin:0 71px 30px;
+padding:13px;
+background:#edf9eb;
+}
+
+#mainColumn div.keyboardBlock table{
+margin:0;
+border:0;
+width:100%;
+}
+
+#mainColumn div.keyboardBlock table td{
+padding:3px 8px;
+border:0;
+text-align:center;
+}
+
+
+/* ----------------------------------------------------------------
+    Module= Page Navigation
+----------------------------------------------------------------- */
+#mainColumn ul.pageNavigation01{
+margin-top:30px;
+text-align:center;
+}
+
+#mainColumn ul.pageNavigation01 li{
+display:inline;
+margin:0 20px;
+}
+#mainColumn ul.pageNavigation01 li *{
+vertical-align:middle;
+}
+
+#mainColumn ul.pageNavigation02{
+margin-bottom:15px;
+text-align:center;
+}
+
+#mainColumn ul.pageNavigation02 li{
+display:inline;
+margin:30px;
+}
+
+#mainColumn ul.pageNavigation02 li.prevPage{
+padding-left:12px;
+background:url("../Images/bullet_arrow_delta2.gif") left center no-repeat;
+}
+
+#mainColumn ul.pageNavigation02 li.nextPage{
+padding-right:12px;
+background:url("../Images/bullet_arrow_delta.gif") right center no-repeat;
+}
+
+#mainColumn ul.pageNavigation03{
+margin-top:30px;
+text-align:center;
+}
+
+#mainColumn ul.pageNavigation03 li{
+display:inline;
+margin:0 5px;
+}
+
+#mainColumn ul.pageNavigation03 li *{
+vertical-align:middle;
+}
+
+
+/* ----------------------------------------------------------------
+    Module= Table
+----------------------------------------------------------------- */
+#mainColumn table .aright{
+text-align:right !important;
+}
+
+#mainColumn table .acenter{
+text-align:center !important;
+}
+
+#mainColumn table .aleft{
+text-align:left !important;
+}
+
+#mainColumn table .nowrap{
+white-space:nowrap;
+}
+
+
+/*#mainColumn table th.dmCell01,
+#mainColumn table th.dmCell02{
+padding:0;
+background:#eee url("../Images/line_solid_01.gif") 0 27px repeat-x !important;
+}
+
+#mainColumn table th.dmCell01{
+text-align:right !important;
+border-right:0 !important;
+}
+
+#mainColumn table th.dmCell02{
+text-align:left !important;
+}*/
+
+/*#mainColumn table.table1{
+font-size:110%;
+}*/
+
+/*#mainColumn table.table1,*/
+#mainColumn table.tableStyleA01{
+margin-bottom:7px;
+border-width:1px 0 0 1px;
+border-style:solid;
+border-color:#ccc;
+width:100%;
+}
+
+#mainColumn table.tableStyleA01 caption{
+margin:0;
+text-align:right;
+font-size:81.25%;
+}
+
+/*#mainColumn table.table1 th,
+#mainColumn table.table1 td,*/
+#mainColumn table.tableStyleA01 th,
+#mainColumn table.tableStyleA01 td{
+border-width:0 1px 1px 0;
+border-style:solid;
+border-color:#ccc;
+line-height:1.4;
+}
+
+#mainColumn table.tableStyleA01 th{
+background:url("../Images/bg_tablestyle_a01_thead.gif") 0 0 no-repeat;
+text-align:center;
+}
+
+
+/* ----------------------------------------------------------------
+  [mc-02]  tableStyleA01 th 改行禁止 
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA01 th{
+white-space: nowrap;
+}
+/* ---------------------------------------------------------------- */
+
+
+#mainColumn table.tableStyleA01 th.headStyle01{
+width:130px;
+}
+
+#mainColumn table.tableStyleA01 th.iconCol{
+width:20px;
+}
+
+
+/* ----------------------------------------------------------------
+  [mc-03]  tableStyleA01 th 円貨換算額 左揃え 
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA01 th div.max05{
+/*background-color:#FFCC00;*/
+width:5em;
+text-align:left;
+margin-left:auto;
+margin-right:auto
+}
+/* ---------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------
+  [mc-27]  tableStyleA01 th 円貨換算額 左揃え 解除
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA01 th div.max05{
+width:auto;
+text-align:center;
+}
+/* ---------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+  [mc-04]  tableStyleA01 td 上揃え 
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA01 td{
+vertical-align:top;
+}
+/* ---------------------------------------------------------------- */
+
+#mainColumn table.tableStyleA01 td.vmiddle{
+vertical-align:middle;
+}
+
+#mainColumn table.tableStyleA01 td.cellType01{
+background:#ffc;
+}
+
+#mainColumn table tr.even td{
+background:url("../Images/bg_tablestyle_a01_even_td.gif") 0 0 no-repeat;
+}
+
+#mainColumn table.tableStyleA02{
+border:1px solid #ccc;
+width:100%;
+}
+
+
+/* ----------------------------------------------------------------
+  [mc-25]   tableStyleA01 td 口座情報テーブルの列幅指定
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA01 .financialInstitutionName{
+width:8em;
+}
+#mainColumn table.tableStyleA01 .branchName{
+width:6.5em;
+}
+#mainColumn table.tableStyleA01 .subject{
+width:2.5em;
+}
+#mainColumn table.tableStyleA01 .accountNumber{
+width:4.5em;
+}
+#mainColumn table.tableStyleA01 .receiverName{
+width:10em;
+}
+#mainColumn table.tableStyleA01 .memo{
+width:6em;
+}
+#mainColumn table.tableStyleA01 .button{
+width:66px;
+}
+/* ---------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------
+  [mc-26]   tableStyleA01 td 定期預金口座テーブルの列幅指定
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA01 .radiobutton02{
+width:12%;
+}
+#mainColumn table.tableStyleA01 .branchName02{
+width:23%;
+}
+#mainColumn table.tableStyleA01 .accountNumber02{
+width:25%;
+}
+#mainColumn table.tableStyleA01 .count02{
+width:15%;
+}
+#mainColumn table.tableStyleA01 .balance02{
+width:25%;
+}
+/* ---------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------
+  [mc-29]   tableStyleA01 td 外貨定期預金口座選択テーブルの列幅指定
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA01 .branchName03{
+width:30%;
+}
+#mainColumn table.tableStyleA01 .subject03{
+width:18%;
+}
+#mainColumn table.tableStyleA01 .accountNumber03{
+width:22%;
+}
+#mainColumn table.tableStyleA01 .balance03{
+width:30%;
+}
+/* ---------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------
+  [mc-30]   tableStyleA01 td 外貨預金口座/外貨定期預金口座テーブルの列幅指定
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA01 .radiobutton04{
+width:10px;
+}
+#mainColumn table.tableStyleA01 .branchName04{
+width:11em;
+}
+#mainColumn table.tableStyleA01 .accountNumber04{
+width:5em;
+}
+/* ---------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------
+  [mc-21]  テーブルの回り込み解除 
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA02{
+clear:right;
+}
+/* ---------------------------------------------------------------- */
+
+
+#mainColumn table.tableStyleA02 th{
+border:0;
+border-right:1px solid #ccc;
+border-bottom:1px solid #ccc;
+width:160px;
+background:url("../Images/bg_tablestyle_a01_thead.gif") 0 0 no-repeat;
+text-align:center;
+}
+
+#mainColumn table.tableStyleA02 th.cellHalf{
+width:72px;
+}
+
+#mainColumn table.tableStyleA02 tr.lastChild th{
+border-bottom:0;
+}
+
+/* ----------------------------------------------------------------
+  [mc-14]  tableStyleA02 td 背景色 黄色 
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA02 td.cellType01{
+background:#ffc;
+}
+/* ---------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------
+  [mc-05]  tableStyleA02行間調整 
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA02 th,
+#mainColumn table.tableStyleA02 td{
+line-height:1.4;
+padding:11px 8px 9px;
+}
+/* ---------------------------------------------------------------- */
+
+
+#mainColumn table.tableStyleA02 td{
+border:0;
+border-bottom:1px solid #ebebeb;
+}
+
+#mainColumn table.tableStyleA02 tr.lastChild td{
+border:0;
+}
+
+
+/* ----------------------------------------------------------------
+  [mc-06]  円複数行 フル桁金額桁揃え 
+----------------------------------------------------------------- */
+
+#mainColumn table.tableStyleA02 td div.max18{
+/*background-color:#FFCC00;*/
+width:20ex;
+text-align:right;
+}
+
+
+html>/**/body #mainColumn table.tableStyleA02 td div.max18{
+width:22ex;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------
+  [mc-19]  テキスト挿入時の改行調整 
+----------------------------------------------------------------- */
+
+#mainColumn table.tableStyleA02 td div.max18{
+width:13em;
+}
+
+html>/**/body #mainColumn table.tableStyleA02 td div.max18{
+width:13em;
+}
+
+/* ---------------------------------------------------------------- */
+
+#mainColumn table.tableCellHalf th{
+width:50%;
+}
+
+#mainColumn table.tableCellHalf th,
+#mainColumn table.tableCellHalf td{
+vertical-align:top;
+}
+
+#mainColumn table.tableCellHalf table{
+width:100%;
+}
+
+#mainColumn table.tableCellHalf table th{
+width:auto;
+}
+
+#mainColumn table.tableCellHalf table th,
+#mainColumn table.tableCellHalf table td{
+vertical-align:middle;
+font-size:100%;
+}
+
+#mainColumn table.tableCellHalf table th{
+background:#eee;
+}
+
+#mainColumn table.tableCellHalf table th.dmCell01,
+#mainColumn table.tableCellHalf table th.dmCell02{
+padding:0;
+background:#eee url("../Images/line_solid_01.gif") 0 27px repeat-x;
+}
+
+#mainColumn table.tableCellHalf table th.dmCell01{
+text-align:right;
+border-right:0;
+}
+
+#mainColumn table.tableCellHalf table[rules="all"]{
+border-collapse:separate !important;
+}
+
+#mainColumn table.tableCellHalf table th.dmCell02{
+text-align:left;
+}
+
+#mainColumn table.favorite td{
+margin-bottom:15px;
+padding:20px;
+}
+
+#mainColumn img.favorite,
+#mainColumn table.favorite img{
+width:100px;
+height:100px;
+}
+
+
+
+/* ----------------------------------------------------------------
+    Module= Notice
+----------------------------------------------------------------- */
+#mainColumn p.noticeText{
+font-size:62.5%;
+}
+
+#mainColumn span.noticeText{
+color:#f00;
+}
+
+/* Added by EBS 全 for ＜りそなダイレクト＞セキュリティ対策（ソフトウェア トー クン） on 2013/11/14 start */
+#mainColumn span.noticeText02{
+color:#f00;
+font-weight:bold;
+}
+/* Added by EBS 全 for ＜りそなダイレクト＞セキュリティ対策（ソフトウェア トー クン） on 2013/11/14 end */
+
+/* ----------------------------------------------------------------
+    Module= FAQ
+----------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+    Module= Attention
+----------------------------------------------------------------- */
+#mainColumn p.attentionText01{
+margin:20px 0;
+color:#f00;
+font-size:125%;
+font-weight:bold;
+text-align:center;
+}
+
+
+/* ----------------------------------------------------------------
+    Module= Image Layout
+----------------------------------------------------------------- */
+#mainColumn p img.icon{
+vertical-align:middle;
+}
+
+
+/* ----------------------------------------------------------------
+    Module= Content Box
+----------------------------------------------------------------- */
+#mainColumn div.contBox01{
+margin:25px 50px;
+}
+
+#mainColumn div.contBox01 p{
+padding:9px 30px;
+background:#e3f5e1;
+font-size:87.5%;
+}
+
+#mainColumn div.contBox01 p strong{
+color:#000;
+font-weight:bold;
+}
+
+#mainColumn div.contBox01 p input{
+margin-left:5px;
+}
+
+#mainColumn div.attentionBlock01{
+margin:25px 0;
+padding:10px 10px 1px;
+background:#fbf5d9;
+}
+
+#mainColumn div.attentionBlock01 dl dt{
+padding-left:23px;
+background:url("../Images/bg_attention01.gif") 0 0.1em no-repeat;
+color:#f00;
+font-size:87.5%;
+font-weight:bold;
+}
+
+#mainColumn div.attentionBlock01 dl dd{
+margin:0 5px;
+}
+
+/* Added by EBS 全 for ＜りそなダイレクト＞セキュリティ対策（ソフトウェア トー クン） on 2013/10/29 start */
+#mainColumn div.attentionBlock02{
+margin:25px 0;
+padding:10px 10px 1px;
+background:#fbf5d9;
+border: double 5px red;
+}
+
+#mainColumn div.attentionBlock02{
+margin:25px 0;
+padding:10px 10px 1px;
+background:#fbf5d9;
+}
+
+#mainColumn div.attentionBlock02 dl dt{
+padding-left:23px;
+background:url("../Images/bg_attention01.gif") 0 0.1em no-repeat;
+color:#f00;
+font-size:87.5%;
+font-weight:bold;
+}
+
+#mainColumn div.attentionBlock02 dl dd{
+margin:0 5px;
+}
+/* Added by EBS 全 for ＜りそなダイレクト＞セキュリティ対策（ソフトウェア トー クン） on 2013/10/29 end */
+
+
+#mainColumn div.informationBlock01{
+margin:25px 0;
+padding:10px 10px 1px;
+background:#fbf5d9;
+}
+
+#mainColumn div.informationBlock01 dl dt{
+padding-left:23px;
+background:url("../Images/bg_information01.gif") 0 0.1em no-repeat;
+color:#118f3b;
+font-size:87.5%;
+font-weight:bold;
+}
+
+#mainColumn div.informationBlock01 dl dd{
+margin:0 5px 0 23px;
+}
+
+#mainColumn div.checkBlock01{
+margin:25px 0;
+padding:10px;
+border:1px solid #ccc;
+background:#ffc;
+}
+
+#mainColumn div.checkBlock01 p{
+margin:0;
+font-size:87.5%;
+font-weight:bold;
+}
+
+#mainColumn div.checkBlock01 p input{
+margin-right:6px;
+}
+
+#mainColumn div.ruleBox{
+margin-bottom:15px;
+padding:15px;
+border:1px solid #ccc;
+height:20em;
+overflow:auto;
+}
+
+#mainColumn textarea.ruleBox{
+margin-bottom:15px;
+padding:0;
+border:1px solid #ccc;
+width:100%;
+height:26em;
+overflow:auto;
+}
+
+#mainColumn div.scrollArea01{
+width:100%;
+overflow:auto;
+padding:1px;
+margin-bottom:15px;
+}
+
+#mainColumn div.scrollArea02{
+width:100%;
+overflow:visible;
+padding:1px;
+margin-bottom:15px;
+}
+
+
+/* ----------------------------------------------------------------
+  [mc-07]  スクロールバーの改行禁止をなくす 
+----------------------------------------------------------------- */
+/* #mainColumn div.scrollArea01 th,
+#mainColumn div.scrollArea01 td{
+white-space:nowrap;
+}*/
+/* ----------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+    Module= Plugin
+----------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+    Module= Form Elements
+----------------------------------------------------------------- */
+#mainColumn input{
+margin:0;
+ime-mode:disabled;
+}
+
+#mainColumn input.imeActive{
+ime-mode:active;
+}
+
+#mainColumn input.aright{
+text-align:right;
+}
+
+#mainColumn p input,
+#mainColumn p select{
+vertical-align:middle;
+}
+
+#mainColumn p input.inputImageStyle01{
+margin-left:15px;
+}
+
+#mainColumn p input.inputImageStyle02{
+margin-right:5px;
+}
+
+#mainColumn input.inputTextType01{
+padding:2px;
+width:350px;
+}
+
+#mainColumn input.inputTextType02{
+padding:2px;
+width:130px;
+}
+
+#mainColumn input.inputTextType03{
+padding:2px;
+width:65px;
+}
+
+#mainColumn input.inputTextType04{
+padding:2px;
+width:235px;
+}
+
+#mainColumn ul.radioBtnList01 li input,
+#mainColumn ul.radioBtnList02 li input,
+#mainColumn ul.checkBoxList01 li input,
+#mainColumn ul.checkBoxList02 li input{
+margin-right:5px;
+vertical-align:middle;
+}
+
+/* ----------------------------------------------------------------
+  [mc-28]  ラジオボタンの大きさ調整 / 文字サイズ1.2倍のクラス作成
+----------------------------------------------------------------- */
+#mainColumn ul.radioBtnList01 li input,
+#mainColumn ul.radioBtnList02 li input{
+width:15px;
+height:15px;
+_width:22px;
+_height:22px;
+}
+#mainColumn ul.radioBtnList01 li.emphasis,
+#mainColumn ul.radioBtnList02 li.emphasis{
+font-size:105%;
+font-weight:bold;
+}
+/* ----------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+  [mc-32]   ラジオボタン領域のテキストボックスのサイズリセット
+----------------------------------------------------------------- */
+#mainColumn ul.radioBtnList01 li input.inputTextType01,
+#mainColumn ul.radioBtnList02 li input.inputTextType01{
+width:350px;
+height:auto;
+}
+#mainColumn ul.radioBtnList01 li input.inputTextType02,
+#mainColumn ul.radioBtnList02 li input.inputTextType02{
+width:130px;
+height:auto;
+}
+#mainColumn ul.radioBtnList01 li input.inputTextType03,
+#mainColumn ul.radioBtnList02 li input.inputTextType03{
+width:65px;
+height:auto;
+}
+#mainColumn ul.radioBtnList01 li input.inputTextType04,
+#mainColumn ul.radioBtnList02 li input.inputTextType04{
+width:235px;
+height:auto;
+}
+/* ----------------------------------------------------------------- */
+
+
+#mainColumn ul.radioBtnList02 li,
+#mainColumn ul.checkBoxList02 li{
+display:inline;
+margin-right:25px;
+}
+
+#mainColumn dl.radioBtnList01{
+zoom:1;
+}
+
+#mainColumn dl.radioBtnList01:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn dl.radioBtnList01 dt{
+float:left;
+clear:left;
+width:250px;
+}
+
+#mainColumn dl.radioBtnList01 dt input{
+margin-right:5px;
+vertical-align:middle;
+}
+
+#mainColumn dl.radioBtnList01 dd{
+margin-left:265px;
+margin-bottom:15px;
+}
+
+#mainColumn select.selectBoxType01,
+#mainColumn select.selectBoxType02,
+#mainColumn select.selectBoxType03{
+padding:1px;
+}
+
+#mainColumn select.selectBoxType01{
+width:300px;
+}
+
+/* ----------------------------------------------------------------
+  [mc-15]  リストボックスの右上に文言 
+----------------------------------------------------------------- */
+
+#mainColumn p.selectBoxType01text{
+width:300px;
+text-align:right;
+margin-bottom:0px;
+}
+
+/* -------------------------------------------------------------- */
+
+
+#mainColumn select.selectBoxType02{
+width:180px;
+}
+
+#mainColumn select.selectBoxType03{
+width:4.5em;
+}
+
+/* ----------------------------------------------------------------
+  [mc-18]  Mac（SAFARI2.0）での西暦部分のselect要素の幅調整
+----------------------------------------------------------------- */
+
+/* safari only \*/
+html:\66irst-child #mainColumn select.jcalendar-select-year{
+width:5.5em;
+}
+/* end */
+
+/* -------------------------------------------------------------- */
+
+#mainColumn div.col2-selectBox{
+zoom:1;
+}
+
+#mainColumn div.col2-selectBox:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn div.col2-selectBox p{
+float:left;
+margin-right:35px;
+}
+
+
+/* ----------------------------------------------------------------
+    Componet= Step
+----------------------------------------------------------------- */
+#mainColumn div#step{
+margin-bottom:5px;
+background:url("../Images/bg_step_top.gif") 0 0 no-repeat;
+}
+
+#mainColumn div#step dl{
+margin:0;
+padding:0;
+background:url("../Images/bg_step_bottom.gif") bottom left no-repeat;
+}
+
+#mainColumn div#step dl:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn div#step dl dt{
+margin-top:9px;
+float:left;
+width:60px;
+text-align:center;
+font-size:0;
+line-height:0;
+}
+
+#mainColumn div#step dl dd{
+float:right;
+margin:0;
+padding:2px 8px;
+_padding-bottom:4px;
+width:610px;
+}
+
+#mainColumn div#step dl dd ol{
+margin:0;
+padding:0;
+text-align:center;
+}
+
+#mainColumn div#step dl dd ol li{
+float:left;
+width:63px;
+margin-right:4px;
+padding-right:11px;
+color:#fff;
+background:url("../Images/bullet_arrow_delta_3.gif") right center no-repeat;
+font-size:78.5%;
+line-height:1.2;
+text-align:center;
+}
+
+#mainColumn div#step dl dd ol li.lastChild{
+width:63px;
+margin-right:0;
+padding-right:0;
+background:none;
+}
+
+#mainColumn div#step dl dd ol li span,
+#mainColumn div#step dl dd ol li em{
+display:block;
+}
+
+#mainColumn div#step dl dd ol li span{
+padding:4px 3px;
+}
+
+#mainColumn div#step dl dd ol li em{
+padding:4px 3px;
+color:#ff9700;
+background:#fff;
+font-weight:normal;
+font-style:normal;
+}
+
+/* ----------------------------------------------------------------
+  [mc-24]  STEPの最小縦サイズ/STEP画像の位置調整
+----------------------------------------------------------------- */
+
+#mainColumn div#step dl{
+min-height:2.5em;
+_height:2.5em;
+}
+
+#mainColumn div#step dl dt img{
+line-height:2.5em;
+margin:5px 0;
+}
+#mainColumn div#step dl dd ol li span,
+#mainColumn div#step dl dd ol li em{
+min-height:2.3em;
+_height:2.3em;
+}
+
+/* ----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+  [mc-09]  STEPのリスト 1.5倍 
+----------------------------------------------------------------- */
+#mainColumn div#step dl dd ol.step02{
+margin:0;
+padding:0;
+text-align:center;
+}
+
+#mainColumn div#step dl dd ol.step02 li{
+float:left;
+width:63px;
+margin-right:4px;
+padding-right:11px;
+color:#fff;
+background:url("../Images/bullet_arrow_delta_3.gif") right center no-repeat;
+font-size:78.5%;
+line-height:1.2;
+text-align:center;
+}
+
+#mainColumn div#step dl dd ol.step02 li{
+float:left;
+width:95px;
+margin-right:4px;
+padding-right:11px;
+color:#fff;
+background:url("../Images/bullet_arrow_delta_3.gif") right center no-repeat;
+font-size:78.5%;
+line-height:1.2;
+text-align:center;
+}
+
+#mainColumn div#step dl dd ol.step02 li.lastChild{
+width:95px;
+margin-right:0;
+padding-right:0;
+background:none;
+}
+
+
+#mainColumn div#step dl dd ol.step02 li span,
+#mainColumn div#step dl dd ol.step02 li em{
+display:block;
+}
+
+#mainColumn div#step dl dd ol.step02 li span{
+padding:4px 3px;
+}
+
+#mainColumn div#step dl dd ol.step02 li em{
+padding:4px 3px;
+color:#ff9700;
+background:#fff;
+font-weight:normal;
+font-style:normal;
+}
+
+/* ----------------------------------------------------------------
+  SafariのみSTEP中のフォントサイズを小さくする
+----------------------------------------------------------------- */
+
+/* safari only \*/ 
+html:\66irst-child 
+#mainColumn div#step dl dd ol li span{
+font-size:91%;
+}
+
+/* safari only \*/ 
+html:\66irst-child 
+#mainColumn div#step dl dd ol li em{
+font-size:91%;
+}
+
+/* ----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+    Module= Form Elements
+----------------------------------------------------------------- */
+/* ローカルナビ無しのときのセンタリング */
+#mainColumn.noNav{
+float:none;
+margin:auto;
+}
+
+
+/*リンク中央寄せ ver.rh */
+#mainColumn ul.pageNavigation01 li.text a{
+padding-left:12px;
+background:url("../Images/bullet_arrow_delta.gif") left center no-repeat;
+font-weight:bold;
+}
+
+
+/*リンクリストタイプ03（横幅10em）ver.rh */
+#mainColumn ul.linkList03{
+zoom:1
+}
+
+#mainColumn ul.linkList03:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn ul.linkList03 li{
+width:45%;
+margin-bottom:5px;
+padding-left:12px;
+background:url("../Images/bullet_arrow_delta.gif") 0 0.5em no-repeat;
+font-weight:bold;
+float:left;
+}
+
+#mainColumn ul.linkList03 li.aright{
+background:none;
+float:right;
+text-align:right;
+}
+
+#mainColumn ul.linkList03 li.aright a{
+padding-left:12px;
+background:url("../Images/bullet_arrow_delta.gif") 0 0.2em no-repeat;
+}
+
+#mainColumn ul.linkList03 li p{
+margin:0;
+color:#666;
+font-size:85%;
+font-weight:normal;
+}
+
+
+/* お気に入り画像 */
+#mainColumn div.imgAndText{
+zoom:1;
+}
+
+#mainColumn div.imgAndText:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn p.imgArea01{
+float:left;
+margin-right:8px;
+}
+#mainColumn p.imgArea02{
+float:right;
+margin-left:8px;
+}
+
+#mainColumn div.favorite div{
+padding-bottom:10px;
+float:right;
+width:578px;
+background:url(../Images/bg_favorite_bottom.gif) bottom no-repeat;
+}
+
+#mainColumn div.favorite img{
+width:100px;
+height:100px;
+}
+
+#mainColumn div.favorite div p{
+margin:0;
+padding:38px 19px 13px;
+background:url(../Images/bg_favorite_top.gif) top repeat-y;
+}
+
+/* ----------------------------------------------------------------
+  [mc-31]   秘密のフレーズと秘密の画像の高さ揃え
+----------------------------------------------------------------- */
+#mainColumn div.favorite div{
+height:90px;
+}
+#mainColumn div.favorite div p{
+height:39px;
+}
+/* ----------------------------------------------------------------- */
+
+
+/* テーブルtype03 テーブル内お気に入り画像 */
+#mainColumn table.tableStyleA03{
+border:1px solid #ccc;
+width:100%;
+}
+
+#mainColumn table.tableStyleA03 th{
+border:0;
+border-right:1px solid #ccc;
+border-bottom:1px solid #ccc;
+width:100px;
+background:url("../Images/bg_tablestyle_a01_thead.gif") 0 0 no-repeat;
+text-align:center;
+}
+
+#mainColumn table.tableStyleA03 tr.lastChild th{
+border-bottom:0;
+}
+
+#mainColumn table.tableStyleA03 td{
+border:0;
+border-bottom:1px solid #ebebeb;
+}
+
+
+#mainColumn table.tableStyleA03 td.mailStatus01{
+width:8%;
+}
+
+#mainColumn table.tableStyleA01 td.mailAddress01 span,
+#mainColumn table.tableStyleA02 td.mailAddress01 span,
+#mainColumn table.tableStyleA03 td.mailAddress01 span{
+display:block;
+width:425px;
+*padding-bottom:1em;
+overflow:auto;
+overflow-y:hidden;
+overflow-x:auto;
+}
+
+/* ----------------------------------------------------------------
+  [mc-16]  メールアドレススクロール調整 
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA03 td.mailStatus01{
+white-space:nowrap;
+}
+
+#mainColumn table.tableStyleA01 td.mailAddress01 span,
+#mainColumn table.tableStyleA02 td.mailAddress01 span,
+#mainColumn table.tableStyleA03 td.mailAddress01 span{
+width:400px;
+_padding-top:1.11em;
+}
+
+#mainColumn table.tableStyleA01 td.mailAddress01,
+#mainColumn table.tableStyleA02 td.mailAddress01,
+#mainColumn table.tableStyleA03 td.mailAddress01{
+_padding:0 5px;
+}
+/* ----------------------------------------------------------------- */
+
+#mainColumn table.tableStyleA03 tr.lastChild td{
+border:0;
+}
+
+#mainColumn table.tableStyleA03 th.mergeCell{
+width:auto;
+}
+
+#mainColumn table.tableStyleA03 th.btnCell{
+width:50px;
+}
+
+#mainColumn table.tableStyleA03 div.imgAndText{
+zoom:1;
+}
+
+#mainColumn table.tableStyleA03 div.imgAndText:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn table.tableStyleA03 p.imgArea01{
+float:left;
+width:95px;
+}
+
+#mainColumn table.tableStyleA03 p.imgArea02{
+float:right;
+width:105px;
+}
+
+/* ----------------------------------------------------------------
+  [mc-13]  tableStyleA03のお気に入り画像エリア幅調整 
+----------------------------------------------------------------- */
+
+#mainColumn table.tableStyleA03 p.imgArea01,
+#mainColumn table.tableStyleA03 p.imgArea02{
+width:100px;
+}
+
+/* ----------------------------------------------------------------- */
+
+
+#mainColumn table.tableStyleA03 div.favorite div{
+padding-bottom:10px;
+float:right;
+width:378px;
+background:url(../Images/bg_favorite02_bottom.gif) bottom no-repeat;
+}
+
+#mainColumn table.tableStyleA03 div.favorite img{
+width:100px;
+height:100px;
+}
+
+#mainColumn table.tableStyleA03 div.favorite div div{
+padding-bottom:10px;
+float:none;
+width:auto;
+}
+
+#mainColumn table.tableStyleA03 div.favorite div p{
+margin:0;
+padding:26px 19px 13px;
+background:url(../Images/bg_favorite02_top.gif) top repeat-y;
+}
+
+/* ----------------------------------------------------------------
+  [mc-34]  tableStyleA03の行間の調整 
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleA03 th,
+#mainColumn table.tableStyleA03 td{
+line-height:1.4;
+}
+/* ----------------------------------------------------------------- */
+
+#mainColumn table.tableStyleA03 td div.favorite div p{
+padding-top:38px;
+}
+
+
+/* プラグイン用ボックス */
+#mainColumn div.pluginBox01{
+margin:25px 35px;
+background:#f0f0f0;
+}
+#mainColumn div.pluginBox01 p{
+padding:9px 30px;
+font-size:75%;
+}
+#mainColumn div.pluginBox01 p.bannerArea01{
+padding:10px 12px;
+float:left;
+}
+
+/* 透明テーブル */
+#mainColumn table.tableStyleC01{
+width:100%;
+}
+
+#mainColumn table.tableStyleC01,
+#mainColumn table.tableStyleC01 td,
+#mainColumn table.tableStyleC01 th{
+border:none;
+background:none;
+}
+
+/* 特殊テーブル */
+#mainColumn table.tableStyleB01{
+width:100%;
+margin:5px;
+}
+
+#mainColumn table.tableStyleB01,
+#mainColumn table.tableStyleB01 td,
+#mainColumn table.tableStyleB01 th{
+border:none;
+background:none;
+font-size:100%;
+font-weight:normal;
+}
+
+
+#mainColumn table.tableStyleB01 td,
+#mainColumn table.tableStyleB01 th{
+width:35%;
+vertical-align:top;
+}
+
+#mainColumn table.tableStyleB01 td.radioCell{
+width:14.5%;
+text-align:center;
+}
+
+#mainColumn table.tableStyleB01 tbody th{
+text-align:left;
+}
+
+#mainColumn table.tableStyleB01 tr.odd th,
+#mainColumn table.tableStyleB01 tr.odd td{
+background:#f0f0f0;
+}
+
+#mainColumn table.tableStyleB01 tr.even th,
+#mainColumn table.tableStyleB01 tr.even td{
+background:#ffffff;
+}
+
+
+#mainColumn table.tableStyleB01 td.radioCell input{
+margin-top:0.2em;
+}
+
+
+/* 特殊テーブル2 */
+#mainColumn table.headTable{
+margin-bottom:0;
+}
+
+#mainColumn table.headTable th.cellType01,
+#mainColumn table.headTable th.cellType02{
+border-bottom:none;
+border-top:none;
+}
+
+#mainColumn table.specialTableA td.cellType01,
+#mainColumn table.specialTableB td.cellType01{
+background:none;
+}
+
+#mainColumn table.specialTableA tbody tr.hide,
+#mainColumn table.specialTableB tbody tr.hide{
+display:none;
+}
+
+#mainColumn table.specialTableA .cellType01{
+width:33px;
+}
+
+#mainColumn table.specialTableA .cellType02{
+width:90px;
+}
+
+#mainColumn table.specialTableB .cellType01{
+width:42px;;
+}
+
+#mainColumn table.specialTableB .cellType02{
+width:109px;
+}
+
+/* ----------------------------------------------------------------
+  [mc-35]  ログインPW入力画面のテーブル修正
+-----------------------------------------------------------------*/
+
+#mainColumn table.tableStyleA04{
+border:1px solid #ccc;
+width:100%;
+}
+
+#mainColumn table.tableStyleA04{
+clear:right;
+}
+
+#mainColumn table.tableStyleA04 td{
+border:0;
+line-height:1.4;
+padding-right:12px;
+padding-left:12px
+}
+
+#mainColumn table.tableStyleA04 td.PWheadStyle01{
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+border-bottom:1px solid #ccc;
+width:120px;
+}
+
+#mainColumn table.tableStyleA04 td.PWdataStyle01{
+border-bottom:1px solid #ccc;
+}
+
+#mainColumn table.tableStyleA04 td.PWdataStyle02{
+border-left:1px solid #ccc;
+width:120px;
+}
+
+#mainColumn table.tableStyleA04 p.imgArea03{
+width:130px;
+}
+
+
+/*------------------------------------------------
+          その他、既存モジュールの調整等
+------------------------------------------------*/
+/*td内hnの調整*/
+#mainColumn td h2,
+#mainColumn td h3,
+#mainColumn td h4,
+#mainColumn td h5,
+#mainColumn td h6{
+margin:0 0 5px;
+font-size:100%;
+}
+
+/* ラジオボタンのリストにインデント */
+#mainColumn .radioBtnList01 li{
+padding-left:1.5em;
+text-indent:-1.5em;
+}
+
+#mainColumn .radioBtnList01 li p,
+#mainColumn .radioBtnList01 li li{
+text-indent:0em;
+}
+
+/* チェックボックスのリストをli単位で折り返すように調整 */
+#mainColumn ul.checkBoxList02{
+zoom:1;
+}
+
+#mainColumn ul.checkBoxList02:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn ul.checkBoxList02 li{
+display:block;
+float:left;
+white-space:nowrap;
+}
+
+
+/* ----------------------------------------------------------------
+  [mc-08]  チェックボックスのリスト 月ごとに揃える 
+----------------------------------------------------------------- */
+.monthfix{
+width:4em;
+}
+/* ---------------------------------------------------------------- */
+
+
+/* noticeTextのセンタリングnoticeText02を作ろうと思ったが元が連番なしなのでp.acenterを作りました。負け組み思考 */
+#mainColumn p.acenter{
+text-align:center;
+}
+
+/* ボタン右寄せの方がよさそうなので汎用コンテンツボックスの応用パターンでinput右寄せ作りました。 */
+#mainColumn div.contBox02{
+margin:25px 50px;
+}
+
+#mainColumn div.contBox02 p{
+padding:9px 30px;
+background:#e3f5e1;
+font-size:87.5%;
+}
+
+#mainColumn div.contBox02 p strong{
+color:#000;
+font-weight:bold;
+}
+
+#mainColumn div.contBox02 p input{
+float:right;
+}
+
+#mainColumn div.contBox02 p{
+zoom:1;
+}
+
+#mainColumn div.contBox02 p:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+/* 赤字と太字の強調がWF上で同時に出ていたので。 */
+#mainColumn strong.attention{
+color:#000;
+font-weight:bold;
+}
+
+/* 赤字と太字の強調がWF上で同時に出ていたので。 */
+#mainColumn .radioBtnList01 p.paragraph02{
+font-size:107.7%;
+}
+
+
+/* ご注意 の中に見出しタイプ02が入るように調整。 */
+#mainColumn .attentionBlock01 h2.hdType01,
+#mainColumn .attentionBlock01 h3.hdType01,
+#mainColumn .attentionBlock01 h4.hdType01,
+#mainColumn .attentionBlock01 h5.hdType01,
+#mainColumn .attentionBlock01 h6.hdType01{
+font-size:100%;
+}
+
+/* icon用 */
+#mainColumn td input.icon{
+vertical-align:middle;
+}
+#mainColumn p.receipt02{
+margin-top:15px;
+margin-bottom:-13px;
+}
+
+/*
+  tableStyleA02 のlastChildを廃止
+  css_support.cssに記述
+*/
+
+/* ラジオボタン */
+#mainColumn ul.radioBtnList03{
+zoom:1;
+}
+
+#mainColumn ul.radioBtnList03:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn ul.radioBtnList03 li{
+float:left;
+width:40%;
+margin:10px;
+_margin-left:5px;
+padding-left:1.5em;
+text-indent:-1.5em;
+}
+
+#mainColumn ul.radioBtnList03 li p,
+#mainColumn ul.radioBtnList03 li li{
+text-indent:0;
+}
+
+#mainColumn ul.radioBtnList03 li input{
+margin-right:5px;
+vertical-align:middle;
+}
+
+
+/* カレンダー */
+#mainColumn div.calendarArea{
+zoom:1;
+}
+
+#mainColumn div.calendarArea:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn fieldset.jcalendar{
+margin:0;
+padding:0;
+display:inline;
+border:none;
+float:left;
+}
+
+#mainColumn div.jcalendar{
+width:200px;
+background:url(../Images/bg_calendar_bottom.gif) bottom no-repeat;
+float:left;
+zoom:1;
+}
+
+#mainColumn div.jcalendar p{
+float:left;
+}
+
+#mainColumn div.jcalendar:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn div.jcalendar div{
+padding:1px 3px 3px 0;
+background:url(../Images/bg_calendar_top.gif) top right no-repeat;
+}
+
+#mainColumn div.jcalendar table{
+margin-bottom:0;
+width:199px;
+border:#54aa48 solid 1px;
+}
+
+
+#mainColumn div.jcalendar table thead td{
+background-color:#54aa48;
+width:100%;
+}
+
+#mainColumn div.jcalendar table thead td div.jcalendar-links{
+color:#FFFFFF;
+font-weight:bold;
+background:none;
+margin:1px;
+zoom:1;
+}
+
+#mainColumn div.jcalendar table thead td div.jcalendar-links:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn div.jcalendar table thead td div.jcalendar-links a,
+#mainColumn div.jcalendar table thead td div.jcalendar-links a:link,
+#mainColumn div.jcalendar table thead td div.jcalendar-links a:visited,
+#mainColumn div.jcalendar table thead td div.jcalendar-links a:hover,
+#mainColumn div.jcalendar table thead td div.jcalendar-links a:active{
+color:#fff;
+}
+
+#mainColumn div.jcalendar table thead td div.jcalendar-links a.link-prev{
+display:block;
+width:14%;
+float:left;
+}
+#mainColumn div.jcalendar table thead td div.jcalendar-links a.link-next{
+display:block;
+width:14%;
+float:right;
+}
+#mainColumn div.jcalendar table thead td div.jcalendar-links span.rspan{
+display:block;
+width:72%;
+float:right;
+}
+
+#mainColumn div.jcalendar table thead td div.jcalendar-links span.lspan{
+display:block;
+width:72%;
+float:left;
+}
+
+#mainColumn div.jcalendar table th{
+background-color:#d1efcd;
+}
+
+#mainColumn div.jcalendar table th,
+#mainColumn div.jcalendar table td{
+text-align:center;
+padding:1px;
+line-height:1.6;
+}
+
+#mainColumn div.jcalendar table td{
+border:none;
+}
+
+#mainColumn div.jcalendar table td{
+margin:0;
+padding:0;
+font-size:83.3%;
+}
+
+#mainColumn div.jcalendar table th{
+border-top:solid 1px #54aa48;
+border-right:none;
+border-bottom:solid 1px #54aa48;
+border-left:none;
+color:#54aa48;
+font-weight:bold;
+font-size:62.5%;
+}
+
+#mainColumn div.jcalendar table td a{
+display:block;
+width:100%;
+}
+
+#mainColumn div.jcalendar table td a:link,
+#mainColumn div.jcalendar table td a:visited{
+text-decoration:none;
+}
+
+#mainColumn div.jcalendar table td a:hover,
+#mainColumn div.jcalendar table td a:active{
+text-decoration:underline;
+}
+
+#mainColumn div.jcalendar table td a.selected{
+display:block;
+width:100%;
+background:#54aa48;
+color:#fff;
+}
+
+#mainColumn div.jcalendar table tbody td a:link,
+#mainColumn div.jcalendar table tbody td a:hover,
+#mainColumn div.jcalendar table tbody td a:active,
+#mainColumn div.jcalendar table tbody td a:visited{
+color:#000;
+}
+
+#mainColumn div.jcalendar table tbody td.sat a:link,
+#mainColumn div.jcalendar table tbody td.sat a:hover,
+#mainColumn div.jcalendar table tbody td.sat a:active,
+#mainColumn div.jcalendar table tbody td.sat a:visited{
+color:#000;
+}
+
+#mainColumn div.jcalendar table tbody td.sun a:link,
+#mainColumn div.jcalendar table tbody td.sun a:hover,
+#mainColumn div.jcalendar table tbody td.sun a:active,
+#mainColumn div.jcalendar table tbody td.sun a:visited{
+color:#000;
+}
+
+#mainColumn div.jcalendar table table,
+#mainColumn div.jcalendar table table th,
+#mainColumn div.jcalendar table table td{
+border:none !important;
+}
+
+#mainColumn div.jcalendar table table{
+background-color:#54aa48;
+margin:1px;
+padding:0;
+}
+
+#mainColumn div.jcalendar table table td{
+font-size:100%;
+}
+#mainColumn div.jcalendar table table td,
+#mainColumn div.jcalendar table table td a{
+color:#FFFFFF !important;
+font-weight:bold;
+}
+
+#mainColumn div.jcalendar table table td a:link,
+#mainColumn div.jcalendar table table td a:visited{
+text-decoration:none;
+}
+#mainColumn div.jcalendar table table td a:hover,
+#mainColumn div.jcalendar table table td a:active{
+text-decoration:underline;
+}
+
+
+ul.radioBtnList01 div.calendarArea{
+font-size:121%;
+}
+ul.radioBtnList01 div.calendarArea *{
+zoom:1;
+}
+
+ul.radioBtnList01 li.cal{
+margin-left:-1.5em;
+}
+
+ul.radioBtnList01 li.cal div.firstChild{
+_width:52%;
+}
+
+/* ----------------------------------------------------------------
+  [mc-17]  radioBtnList01 li内のフォントサイズ調整 / div.firstChildの幅調整
+-----------------------------------------------------------------
+ul.radioBtnList01 li.cal div.firstChild{
+_width:45%;
+_white-space:nowrap;
+}
+ul.radioBtnList01 li{
+font-size:72%;
+}
+ul.radioBtnList01 li.cal{
+font-size:100%;
+}
+ul.radioBtnList01 li.cal p{
+font-size:69%;
+}
+-------------------------------------------------------------- */
+
+/* ソフトウェアキーボード 電卓 */
+#mainColumn div.jsPanel div{
+background:#EDF9EB;
+padding:20px 36px 8px 26px;
+zoom:1;
+}
+
+#mainColumn div.jsPanel div:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#mainColumn div.jsPanel div ul{
+float:left;
+}
+
+#mainColumn div.jsPanel div ul.keyPanel{
+float:right;
+width:150px;
+overflow:hidden;
+padding:0;
+margin:0;
+}
+
+#mainColumn div.jsPanel div ul.keyPanel li{
+float:left;
+padding:0px 16px 8px 0px;
+margin:0;
+line-height:0px;
+}
+
+#mainColumn div.jsPanel div ul.keyPanel li.clear{
+float:right;
+}
+
+/* col2-selectBox微調整 */
+#mainColumn div.col2-selectBox p{
+width:43%;
+}
+
+
+/* ラジオボタンで表示するものを切り替えるJS用 */
+#mainColumn div.target02{
+display:none;
+}
+
+
+/* table横幅解除 */
+#mainColumn table.smallTable{
+width:50%;
+}
+
+/* input 微調整 */
+#mainColumn td input{
+vertical-align:middle;
+}
+
+#mainColumn input.inputFileType01{
+padding:2px;
+width:350px;
+}
+
+
+/* ----------------------------------------------------------------
+  [mc-11]  tableStyleB01の横幅を調整 
+----------------------------------------------------------------- */
+#mainColumn table.tableStyleB01{ width:98%; } 
+
+/* -------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+  [mc-12]  hrをtable内で表示させる 
+----------------------------------------------------------------- */
+#mainColumn hr{ display:block; }
+/* -------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------
+    CSS 更新内容
+----------------------------------------------------------------- */
+
+/* [mc-01] dl.autoText01 左寄せ 
+#mainColumn dl.autoText01、02の
+margin-left:4em;をmargin-left:0;に変更 */
+
+
+/*  [mc-02] tableStyleA01 th 改行禁止 
+#mainColumn table.tableStyleA01 thに
+white-space: nowrap;を追加し、改行禁止にした */
+
+
+/*  [mc-03] tableStyleA01 th 円貨換算額 左揃え 
+#mainColumn table.tableStyleA01 th div.max05に
+width:5ex;
+text-align:left;　
+を追加。2行で左揃えに表示されるclassを追加*/
+
+
+/*  [mc-04] tableStyleA01 td 上揃え 
+#mainColumn table.tableStyleA01 td{
+vertical-align:top;
+を追加し、上揃えに変更*/
+
+/*  [mc-05] tableStyleA02行間調整 
+#mainColumn table.tableStyleA02 th,
+#mainColumn table.tableStyleA02 td{
+line-height:2.0;を
+line-height:1.4;
+padding:11px 8px 9px;
+に変更。表示上は変更ない設定となっている。*/
+
+/*  [mc-06] 円複数行 フル桁金額桁揃え 
+#mainColumn table.tableStyleA02 td div.max18{
+width:20ex;
+text-align:right;
+}
+を追加 */
+
+/*  [mc-07] スクロールバーの改行禁止をなくす 
+#mainColumn div.scrollArea01 th,
+#mainColumn div.scrollArea01 td{
+white-space:nowrap;
+}　をコメントアウトした*/
+
+/*  [mc-08] チェックボックスのリスト 月ごとに揃える 
+.monthfix{
+width:4em;
+}　を追加*/
+
+/*  [mc-09] 外部サイトへリンクアイコン付きリンク 
+#mainColumn a.linkStyleA02{
+margin-left:12px;
+padding-left:14px;
+background:url("../Images/icn_window.gif") 0 0.2em no-repeat;
+}
+を追加 */
+
+/*  [mc-10] 外部サイトへリンクアイコン付きリンク 
+#mainColumn a.linkStyleA02{
+margin-left:12px;
+padding-left:14px;
+background:url("../Images/icn_window.gif") 0 0.2em no-repeat;
+}
+を追加 */
+
+/*  [mc-11] 特殊テーブル（tableStyleB01）の横幅設定 
+#mainColumn table.tableStyleB01{ width:98%; }
+を追加 */
+
+/*  [mc-12] 水平線<hr>の表示設定 
+ #mainColumn hr{ display:block; }
+を追加 */
+
+/*  [mc-13] tableStyleA03のお気に入り画像エリア幅調整 
+
+#mainColumn table.tableStyleA03 p.imgArea01、02{
+width:100px;
+}　widthを100px;に設定 */
+
+/*  [mc-14] tableStyleA02 tdの背景色 黄色のスタイル追加 
+#mainColumn table.tableStyleA02 td.cellType01{
+background:#ffc;}
+を追加 */
+
+/*  [mc-15]  リストボックスの右上に文言 
+#mainColumn p.selectBoxType01text{
+width:300px;
+text-align:right;
+margin-bottom:0px;
+}を追加 */
+
+/*  [mc-16]   
+#mainColumn table.tableStyleA03 td.mailStatus01{
+white-space:nowrap;}
+white-spaceをnowrapに設定
+
+#mainColumn table.tableStyleA01 td.mailAddress01 span,
+#mainColumn table.tableStyleA02 td.mailAddress01 span,
+#mainColumn table.tableStyleA03 td.mailAddress01 span{
+width:400px;
+_padding-top:1.15em;}
+widthを425pxから400pxに変更
+_padding-top:1.15em;を追加
+
+#mainColumn table.tableStyleA01 td.mailAddress01,
+#mainColumn table.tableStyleA02 td.mailAddress01,
+#mainColumn table.tableStyleA03 td.mailAddress01{
+_padding:0 5px;
+}を追加 */
+
+
+/*  [mc-17]  
+ul.radioBtnList01 li.cal div.firstChild{
+_width:45%;
+_white-space:nowrap;
+}_widthを45%に修正/_white-space：nowrap;を追加
+
+ul.radioBtnList01 li{
+font-size:72%;
+}を追加
+ul.radioBtnList01 li.cal{
+font-size:100%;
+}を追加
+ul.radioBtnList01 li.cal p{
+font-size:69%;
+}を追加 */
+
+/*  [mc-18]
+safariハック使用
+#mainColumn select.jcalendar-select-year{
+width:5.5em;
+}を追加 */
+
+/*  [mc-19]
+#mainColumn table.tableStyleA02 td div.max18{
+width:13em;
+}widthを20exから13emに変更 */
+
+/*  [mc-20]
+[mc-17]の内容をコメントアウト */
+
+/*  [mc-21]
+#mainColumn table.tableStyleA02{
+clear:right;
+}を追加 */
+
+/*  [mc-22]
+#contentsArea #mainColumn div.hdStyle{
+_height:35px;
+}IEハック使用IEのみ高さ指定することによってp.printのポジションbottomが利かない点を有効に
+#mainColumn div.hdStyle p.print{
+width:69px;
+white-space:nowrap;
+top:auto;
+bottom:7px;
+}width:69px;を追加/white-space:nowrap;を追加/topを0からautoに変更/bottom:7pxを追加
+#mainColumn div.hdStyle p{
+width:565px;
+}を追加*/
+
+/*  [mc-23]
+#mainColumn div.hdStyle p{
+padding-bottom:6px;
+}padding-bottomを6pxに修正*/
+
+/*  [mc-24]
+#mainColumn div#step dl{
+min-height:2.5em;
+_height:2.5em:
+}を追加
+#mainColumn div#step dl dt img{
+line-height:2.5em;
+margin:5px 0;
+}を追加
+#mainColumn div#step dl dd ol li em{
+min-height:2.3em;
+_height:2.3em;
+}を追加*/
+
+
+/*  [mc-25]
+#mainColumn table.tableStyleA01 .financialInstitutionName{
+width:8em;
+}を追加
+#mainColumn table.tableStyleA01 .branchName{
+width:6.5em;
+}を追加
+#mainColumn table.tableStyleA01 .subject{
+width:2.5em;
+}を追加
+#mainColumn table.tableStyleA01 .accountNumber{
+width:4.5em;
+}を追加
+#mainColumn table.tableStyleA01 .receiverName{
+width:10em;
+}を追加
+#mainColumn table.tableStyleA01 .memo{
+width:6em;
+}を追加
+#mainColumn table.tableStyleA01 .button{
+width:66px;
+}を追加*/
+
+/*  [mc-26]
+#mainColumn table.tableStyleA01 .radiobutton02{
+width:12%;
+}を追加
+#mainColumn table.tableStyleA01 .branchName02{
+width:23%;
+}を追加
+#mainColumn table.tableStyleA01 .accountNumber02{
+width:25%;
+}を追加
+#mainColumn table.tableStyleA01 .count02{
+width:15%;
+}を追加
+#mainColumn table.tableStyleA01 .balance02{
+width:25%;
+}を追加*/
+
+/*  [mc-27]
+#mainColumn table.tableStyleA01 th div.max05{
+width:auto;
+text-align:center;
+}width:5emをautoに変更text-align:leftをcenterに変更*/
+
+/*  [mc-28]
+#mainColumn ul.radioBtnList01 li input,
+#mainColumn ul.radioBtnList02 li input{
+width:15px;
+height:15px;
+_width:22px;
+_height:22px;
+}IE6でサイズ22pxそれ以外でサイズ15pxを追加
+#mainColumn ul.radioBtnList01 li.emphasis,
+#mainColumn ul.radioBtnList02 li.emphasis{
+font-size:105%;
+font-weight:bold;
+}を追加*/
+
+/*  [mc-29]
+#mainColumn table.tableStyleA01 .branchName03{
+width:30%;
+}
+#mainColumn table.tableStyleA01 .subject03{
+width:18%;
+}
+#mainColumn table.tableStyleA01 .accountNumber03{
+width:22%;
+}
+#mainColumn table.tableStyleA01 .balance03{
+width:30%;
+}を追加*/
+
+/*  [mc-30]
+#mainColumn table.tableStyleA01 .radiobutton04{
+width:10px;
+}
+#mainColumn table.tableStyleA01 .branchName04{
+width:11em;
+}
+#mainColumn table.tableStyleA01 .accountNumber04{
+width:5em;
+}を追加*/
+
+/*  [mc-31]
+#mainColumn div.favorite div{
+height:90px;
+}
+#mainColumn div.favorite div p{
+height:51px;
+}を追加*/
+
+/*  [mc-32]
+#mainColumn ul.radioBtnList01 li input.inputTextType01,
+#mainColumn ul.radioBtnList02 li input.inputTextType01{
+width:350px;
+height:auto;
+}
+#mainColumn ul.radioBtnList01 li input.inputTextType02,
+#mainColumn ul.radioBtnList02 li input.inputTextType02{
+width:130px;
+height:auto;
+}
+#mainColumn ul.radioBtnList01 li input.inputTextType03,
+#mainColumn ul.radioBtnList02 li input.inputTextType03{
+width:65px;
+height:auto;
+}
+#mainColumn ul.radioBtnList01 li input.inputTextType04,
+#mainColumn ul.radioBtnList02 li input.inputTextType04{
+width:235px;
+height:auto;
+}を追加*/
+
+/*  [mc-33]
+#contentsArea #mainColumn div.hdStyle{
+_height:27px;
+}_heightを35pxから27pxに修正*/
+
+/*  [mc-34]
+#mainColumn table.tableStyleA03 th,
+#mainColumn table.tableStyleA03 td{
+line-height:1.4;}line-heightに1.4を追加 */
+
+#mainColumn ul.listStyleA01 ul.listStyleA01{
+margin:0 0 0px 15px;
+}
+
+/*  Added by ISID川上 for RB／SR誤認防止対応 on 2011/01/12 start */
+
+/* ----埼玉りそな ログイン画面 スタイル------------ */
+/* ------------------------------------------------ */
+
+#mainColumn table.tableStyleA05{
+clear:right;
+}
+
+#mainColumn table.tableStyleA05{
+border:1px solid #ccc;
+width:100%;
+}
+
+#mainColumn table.tableStyleA05 tr.lastChild th{
+border-bottom:0;
+}
+
+#mainColumn table.tableStyleA05 th,
+#mainColumn table.tableStyleA05 td{
+line-height:1.4;
+padding:11px 8px 9px;
+}
+
+#mainColumn table.tableStyleA05 th{
+border:0;
+border-right:1px solid #ccc;
+border-bottom:1px solid #ccc;
+width:160px;
+background:url("../Images/bg_tablestyle_a02_thead.gif") 0 0 no-repeat;
+text-align:center;
+}
+
+
+#mainColumn table.tableStyleA05 td{
+border:0;
+border-bottom:1px solid #ebebeb;
+}
+
+#mainColumn table.tableStyleA05 tr.lastChild td{
+border:0;
+}
+
+/* ---- ログイン画面 銀行名 文字サイズ------------- */
+/* ------------------------------------------------ */
+
+h1#bankNameFinding{
+font-size: 200%;
+}
+
+/*  Added by ISID川上 for RB／SR誤認防止対応 on 2011/01/12 end */
+
+/* Added by EBS 久木野 for 外貨預金推進強化 on 2012/10/01 start */
+
+.tbl_bgcccccc {
+background-color:#cccccc;
+border:none;
+}
+
+.tbl_bgd3eace {
+background-color: #D3EACE;
+border:none;
+}
+
+.tbl_bgffffff {
+background-color: white;
+border:none;
+}
+
+/* Added by EBS 久木野 for 外貨預金推進強化 on 2012/10/01 end */
+

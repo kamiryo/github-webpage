@@ -1,0 +1,79 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------------
+    Structure= Footer Area
+----------------------------------------------------------------- */
+#footerArea *{
+margin:0;
+padding:0;
+}
+
+#footerArea p.pageTop{
+display:none;
+}
+
+#footerArea #footerInformation{
+position:relative;
+height:auto;
+}
+
+#footerArea ul#inquiry{
+position:relative;
+margin-bottom:5px;
+border-bottom:5px solid #118f3b;
+background:none;
+height:auto;
+text-align:center;
+}
+
+#footerArea ul#inquiry li{
+position:static;
+margin-bottom:3px;
+text-align:center;
+}
+
+#footerArea ul#inquiry li#labelFreedial{
+width:auto;
+}
+
+#footerArea ul#inquiry li#labelEmail{
+width:auto;
+}
+
+/* ----------------------------------------------------------------
+  [mfp-01]  ロゴ、コピーライトの配置
+----------------------------------------------------------------- */
+
+#footerArea p#ci{
+position:static;
+float:right;
+}
+
+#footerArea p#copyright{
+position:static;
+float:left;
+}
+/* ---------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------
+  [mfp-02]  「ページの先頭へ」の印刷非表示
+----------------------------------------------------------------- */
+
+#footerArea a.lnkTop{
+display:none;
+}
+/* ---------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+    CSS 更新内容
+----------------------------------------------------------------- */
+
+/*  [mfp-01] #footerArea p#ci
+float:left;をfloat:right;に変更 */
+
+/*  [mfp-01] #footerArea p#copyright
+float:right;をfloat:left;に変更 */
+
+/*  [mfp-02] #footerArea a.lnkTop
+display:none;を追加 */
